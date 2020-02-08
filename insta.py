@@ -9,7 +9,7 @@ bot = telebot.TeleBot(TOKEN)
 r = requests.get(f'{MAIN_URL}/getUpdates')
 print(r.json())
 print(bot.get_me())
-#bot.send_message(707614495, 'test')
+bot.send_message(707614495, 'test')
 
 #684414835 - id Андрей
 
