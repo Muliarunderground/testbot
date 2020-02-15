@@ -105,7 +105,7 @@ def answer_for_question(call):
                                                'которые поднимут активность на твоем инстаграм аккаунте)🎆\n'
                                                'Вводи вот так✍:@nickname 12345678')
     elif call.data == 'yes':
-        bot.send_message(call.message.chat.id, 'Отлично!👑🎰\n'
+        bot.send_message(call.message.chat.id, 'Прекрасно!'
                                                'Введите свой @никнейм и пароль от аккаунта.\n'
                                                'Вот так✍:\n'
                                                '@nickname 12345678', reply_markup=markup_inline_choice)
