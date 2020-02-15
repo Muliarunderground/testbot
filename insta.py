@@ -110,7 +110,7 @@ def answer_for_question(call):
                                                'Вот так✍:\n'
                                                '@nickname 12345678', reply_markup=markup_inline_choice)
     elif call.data == 'no':
-        bot.send_message(call.message.chat.id,'Очень жаль💔(\n'
+        bot.send_message(call.message.chat.id,'Очень жалко💔(\n'
                                               'Но вы всегда можете воспользоваться нашими услугами на сайте.')
     elif call.data == 'message':
         bot.send_message(call.message.chat.id,'Чтобы оставить отзыв - напиши / \nи выбери комманду /support\n'
