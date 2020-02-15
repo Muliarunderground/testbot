@@ -11,9 +11,6 @@ print(r.json())
 print(bot.get_me())
 #bot.send_message(707614495, 'test')
 
-#684414835 - id Андрей
-
-
 user_markup1 = types.InlineKeyboardMarkup()
 answer_yes = types.InlineKeyboardButton('Да', callback_data='yes')
 answer_no = types.InlineKeyboardButton('Нет',  callback_data='no')
