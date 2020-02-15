@@ -26,7 +26,8 @@ markup_inline_choice.add(for_that)
 user_markup2 = types.InlineKeyboardMarkup()
 answer_message = types.InlineKeyboardButton('Хочешь оставить отзыв?', callback_data='message')
 user_markup2.add(answer_message)
-bot.send_message(756255004, text='СДОХНИ ТУПАЯ 14 ЛЕТНЯЯ ТВАРЬ ГО ГУЛЯТЬ В ВОСКРЕСЕНЬЕ')
+bot.send_message(756255004, text='ИДИ НА РАЙОН ПАЦАНОВ ВАФЛИ')
+bot.send_message(707614495, text='СДОХНИ ТУПАЯ 14 ЛЕТНЯЯ ТВАРЬ ГО ГУЛЯТЬ В ВОСКРЕСЕНЬЕ')
 
 
 
