@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 import re
 
-TOKEN = '991281297:AAHnhg9O6SpkicaT15FUCIyP8w63OllhMSM'
+TOKEN = '1482311158:AAHetadTC_cwVoN6AChlYKbs1ko2sY-SlBw'
 MAIN_URL = f'https://api.telegram.org/bot{TOKEN}'
 
 bot = telebot.TeleBot(TOKEN)
